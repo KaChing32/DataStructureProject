@@ -1,8 +1,5 @@
 package Assignment.Q8;
 
-/**
- * Created by user on 24/11/2018.
- */
 public class Binarysearchtree { class sequence  {
     int key;
     sequence  left, right;

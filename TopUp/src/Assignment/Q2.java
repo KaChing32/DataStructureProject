@@ -1,8 +1,6 @@
 package Assignment;
 import java.util.Scanner;
-/**
- * Created by user on 9/11/2018.
- */
+
 public class Q2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

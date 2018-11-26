@@ -6,12 +6,11 @@ import java.util.*;
 
 class DFS
 {
-    private int V; // No. of vertices
+    private int V;
 
-    // Array of lists for Adjacency List Representation
     private LinkedList<Integer> adj[];
 
-    // Constructor
+
     DFS(int n)
     {
         V = n;
@@ -29,8 +28,6 @@ class DFS
     {
         see[e] = true;
         System.out.print(e+" ");
-
-
 
         Iterator<Integer> a = adj[e].listIterator();
         while (a.hasNext())
@@ -64,7 +61,6 @@ class DFS
         n.node(2, 3);
 
         System.out.println("DFS");
-
         n.DFS();
     }
 }

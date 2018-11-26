@@ -21,6 +21,8 @@ public class Peek {
 
             System.out.println("Peek at "
                     + "and the stack is : " + STACK.peek());
+            System.out.println("Peek at "
+                    + "and the stack is : " + STACK.peek());
 
             System.out.println("The last stack: " + STACK);
         }

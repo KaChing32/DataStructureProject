@@ -21,8 +21,6 @@ package Assignment.Q6Q7;
             System.out.println(n);
             n.push("London");
             System.out.println(n);
-            n.push(new Character('Q'));
-            System.out.println(n);
             n.push(new Double(555.9));
             System.out.println(n);
 

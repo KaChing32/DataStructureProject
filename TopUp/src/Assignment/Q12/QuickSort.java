@@ -52,7 +52,7 @@ public class QuickSort {
         public static void main(String a[]){
 
             QuickSort sorter = new QuickSort();
-            int[] input = {32,6,34,23,2,40,3,63,55};
+            int[] input = {30,13,22,90};
             sorter.sort(input);
             for(int i:input){
                 System.out.print(i);

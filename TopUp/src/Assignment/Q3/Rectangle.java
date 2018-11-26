@@ -2,8 +2,6 @@ package Assignment.Q3;
 
 
 public class Rectangle extends Ashape {
-
-
     private double Hei;
     private double Wid;
 
@@ -14,7 +12,6 @@ public class Rectangle extends Ashape {
     public void setHei(double h) {
         Hei = h;
     }
-
 
     public void setWid(double w) {
         Wid = w;
@@ -28,12 +25,10 @@ public class Rectangle extends Ashape {
         double area = Hei * Wid;
         return area;
     }
-
     public double perimeter() {
         double perimeter = (2 * Wid) + (2 * Hei);
         return perimeter;
     }
-
     public Rectangle clone() {
         Rectangle xq;
         xq = new Rectangle(this.xs, this.ys);
@@ -41,14 +36,12 @@ public class Rectangle extends Ashape {
         xq.setWid(this.Wid);
         return xq;
     }
-
     public boolean equals(Rectangle r) {
         return r.Hei == this.Hei
                 && r.Wid == this.Wid
                 && r.getX() == this.xs
                 && r.getY() == this.ys;
     }
-
     public String toString() {
         String message = "\n[RECTANGLE]"
                 + "\nThe Position is: (" + xs + ", " + ys
